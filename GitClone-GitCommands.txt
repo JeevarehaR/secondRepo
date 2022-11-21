@@ -1,0 +1,24 @@
+git config --list
+git clone https://github.com/JeevarehaR/GItBashConnect.git
+cd pathdirectorynam
+git status => show you the folders and files
+git add .
+git commit -m"git commands"
+git push
+
+
+…or create a new repository on the command line
+echo "# GItBashConnect" >> README.md
+git init
+git remote add origin https://github.com/JeevarehaR/SecondRepo.git
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git push -u origin main
+
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/JeevarehaR/GItBashConnect.git
+git branch -M main
+git push -u origin main
